@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Using Bootstrap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <section class="container-fluid">
+        <header class="col-md-12">
+            <ul class="nav nav-pills">
+                <li role="presentation" class="active"><a href="#">J29</a></li>
+                <li role="presentation"><a href="#">Videos</a></li>
+                <li role="presentation"><a href="#">Print</a></li>
+                <li role="presentation"><a href="#">Websites</a></li>
+            </ul>
+        </header>
+    </section>
+    <section class="container-fluid">
+        <aside class="col-md-4 sidebar">
+            <form action="#" method="post">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="First Name">
+                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Last Name">
+                </div>
+
+                <div class="input-group">
+                  <span class="input-group-addon">@</span>
+                  <input type="text" class="form-control" placeholder="Your Twitter Username">
+                  <span class="input-group-addon">twitter</span>
+                </div>                
+            </form>
+        </aside>
+        <article class="col-md-8">
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <h2>Website Headline</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut feugiat urna, quis malesuada odio. Integer quis sem sed magna mattis tempus. Sed blandit iaculis elementum. Nulla ut augue dolor. Vivamus iaculis fringilla orci, ac finibus ex sagittis vitae. Sed egestas ac neque at placerat. Pellentesque sed suscipit eros. Vestibulum in nunc et odio cursus hendrerit quis facilisis est.</p>
+                    <p>Mauris non viverra ipsum. Praesent at quam eu magna ullamcorper rutrum et sit amet lectus. Suspendisse sed leo vitae nisi vehicula bibendum sed a quam. Proin eu leo facilisis, iaculis eros non, gravida urna. Suspendisse sed pharetra nulla. Pellentesque eu diam sed lectus auctor tristique. Praesent sit amet mattis diam, malesuada dictum dui. Cras dui sem, venenatis commodo est sit amet, condimentum porttitor nibh. Curabitur pretium nec dolor ac rhoncus.</p>
+                    <p>Integer placerat vulputate lorem non eleifend. Maecenas diam erat, porttitor ut turpis eu, commodo semper elit. Suspendisse consequat nec diam id mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam eu aliquet elit. Vivamus sagittis, dui ut accumsan sollicitudin, felis mauris lacinia velit, sit amet egestas massa dolor at lacus. Proin eget ipsum ac mi tincidunt interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec vestibulum feugiat ex, a aliquet nisl aliquet ut.</p>
+                    <p><a class="btn btn-primary" href="#" role="button">Learn more</a></p>    
+                </div>
+                
+            </div>
+        </article>
+    </section>
+    <footer class="container-fluid">
+        <div class="alert alert-success col-md-12" role="alert">
+            <p class="footer-message">Congrats! You've reached the footer!</p>
+        </div>
+    </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
